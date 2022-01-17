@@ -1,0 +1,26 @@
+package com.javaproects.se.lesson1;
+
+public class Dog extends Animal{
+    public Dog(String name, String weigt, String clasification) {
+        super(name, weigt, clasification);
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("I am barking woof!");
+
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("I am slipping 6 hours per day");
+
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("I am eating bones");
+
+    }
+
+}
