@@ -1,0 +1,26 @@
+package com.javaproects.se.lesson1;
+
+public class Horse extends Animal{
+
+    public Horse(String name, String weigt, String clasification) {
+        super(name, weigt, clasification);
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("I make sound Igo-go!");
+
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("I sleep standing up ");
+
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("I eat hay and grass ");
+
+    }
+}
