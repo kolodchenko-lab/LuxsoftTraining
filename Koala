@@ -1,0 +1,25 @@
+package com.javaproects.se.lesson1;
+
+public class Koala extends Animal {
+
+    public Koala(String name, String weigt, String clasification) {
+        super(name, weigt, clasification);
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("I make sound 'urrr'");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("I am sleeping 14 hours per day");
+
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("I am eating eucalyptus leaves");
+
+    }
+}
