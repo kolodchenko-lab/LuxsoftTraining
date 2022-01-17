@@ -1,0 +1,25 @@
+package com.javaproects.se.lesson1;
+
+public class Main {
+    public static void main(String[] args) {
+        Horse horse = new Horse("Bo Jack",
+                "102 kg",
+                "herbivorous" );
+
+        Koala koala = new Koala("Artur",
+                "12 kg",
+                "herbivorous"
+                );
+        Dog dog = new Dog("Bady",
+                "7 kg",
+                "omnivorous");
+
+        System.out.println("What is your name ?: " + horse.getName());
+        System.out.println("What is your weight ?: " + horse.getWeigt());
+        System.out.println("How are you ?: " + horse.getClasification());
+        horse.makeSound();
+        horse.eat();
+        horse.sleep();
+        System.out.println("Equals?: " + horse.equals(koala));
+    }
+}
